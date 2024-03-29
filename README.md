@@ -1,16 +1,14 @@
 # sushi
 
-A new Flutter project.
+一个ui设计demo
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 主要使用
+`google_fonts`
+`provider`
+ 
+## 学习内容
+主要复习了，页面跳转，页面布局，以及状态持久化。
+## 待解决问题
+[x] 支付页面
+[x] 喜欢页面
+[x] 抽屉页面
