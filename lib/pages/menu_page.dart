@@ -108,7 +108,7 @@ class _MenuPageState extends State<MenuPage> {
                   hintText: "Search here..."),
             ),
           ),
-          const SizedBox(height: 25),
+          const SizedBox(height: 10),
           //menu list
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 25),

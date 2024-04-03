@@ -35,11 +35,13 @@ class IntroPage extends StatelessWidget {
             ),
             const SizedBox(height: 25),
             //title
-            Text(
-              "THE TASTE OF JAPANESE FOOD",
-              style: GoogleFonts.dmSerifDisplay(
-                fontSize: 44,
-                color: Colors.white,
+            FittedBox(
+              child: Text(
+                "THE TASTE OF JAPANESE FOOD",
+                style: GoogleFonts.dmSerifDisplay(
+                  fontSize: 36,
+                  color: Colors.white,
+                ),
               ),
             ),
             const SizedBox(height: 10),

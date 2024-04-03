@@ -1,5 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:sushi/models/food.dart';
 
@@ -22,9 +22,12 @@ class FoodTile extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             //image
-            Image.asset(
-              food.imagePath,
-              height: 140,
+            Hero(
+              tag: food.imagePath,
+              child: Image.asset(
+                food.imagePath,
+                height: 140,
+              ),
             ),
             //text
             Text(

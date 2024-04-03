@@ -85,9 +85,12 @@ class _FoodDetailsPageState extends State<FoodDetailsPage> {
               child: ListView(
                 children: [
                   // image
-                  Image.asset(
-                    widget.food.imagePath,
-                    height: 200,
+                  Hero(
+                    tag: widget.food.imagePath,
+                    child: Image.asset(
+                      widget.food.imagePath,
+                      height: 200,
+                    ),
                   ),
                   const SizedBox(height: 25),
                   // rating
